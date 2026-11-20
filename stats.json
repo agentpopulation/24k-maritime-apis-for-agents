@@ -1,0 +1,1838 @@
+{
+  "repo": "maritime-api-endpoints",
+  "title": "Maritime API endpoints",
+  "snapshot": "2026-11-15",
+  "snapshot_text": "15 Nov 2026",
+  "snapshot_time": "2026-11-15 09:06:22 IST",
+  "tested_total": 5129834,
+  "passed_total": 3726509,
+  "rows": 24827,
+  "unique_urls": 24827,
+  "services": 3457,
+  "country_codes": 73,
+  "single_country": null,
+  "agent_ready": 14548,
+  "range": {
+    "min": "2026-11-10",
+    "max": "2026-11-15",
+    "text": "10–15 Nov 2026"
+  },
+  "formats": {
+    "json": 14548,
+    "xml": 6366,
+    "txt": 2283,
+    "csv": 1104,
+    "geojson": 492,
+    "zip": 34
+  },
+  "categories": {
+    "Maritime": 24827
+  },
+  "tags": {
+    "maritime": 24827,
+    "no-key": 24827,
+    "agent-ready": 14548,
+    "json": 14548,
+    "maps": 13285,
+    "xml": 6366,
+    "open-data": 3514,
+    "oceans": 2484,
+    "traffic": 1323,
+    "csv": 1104,
+    "environment": 1084,
+    "transit": 574,
+    "geojson": 492,
+    "statistics": 473,
+    "rivers": 465,
+    "government": 433,
+    "weather": 345,
+    "science": 320,
+    "tides": 200,
+    "air-quality": 123,
+    "earthquakes": 115,
+    "elevation": 107,
+    "parking": 60,
+    "hazards": 58,
+    "health": 58,
+    "floods": 50,
+    "economy": 47,
+    "energy": 46,
+    "finance": 44,
+    "climate": 26,
+    "tsunami": 23,
+    "groundwater": 21,
+    "aviation": 14,
+    "forecast": 9,
+    "geocoding": 5,
+    "volcanoes": 4,
+    "wildfire": 4,
+    "gtfs": 3,
+    "ai-ml": 1
+  },
+  "dates": {
+    "2026-11-15": 7213,
+    "2026-11-14": 17613,
+    "2026-11-10": 1
+  },
+  "countryNames": {
+    "EU": "European Union",
+    "US": "United States",
+    "CA": "Canada",
+    "IE": "Ireland",
+    "DE": "Germany",
+    "SG": "Singapore",
+    "GB": "United Kingdom",
+    "NZ": "New Zealand",
+    "AU": "Australia",
+    "NO": "Norway",
+    "FI": "Finland",
+    "FR": "France",
+    "IT": "Italy",
+    "CN": "China",
+    "SE": "Sweden",
+    "NL": "Netherlands",
+    "ES": "Spain",
+    "HK": "Hong Kong",
+    "TT": "Trinidad and Tobago",
+    "KH": "Cambodia",
+    "PT": "Portugal",
+    "BR": "Brazil",
+    "BE": "Belgium",
+    "EE": "Estonia",
+    "MM": "Myanmar",
+    "IN": "India",
+    "JP": "Japan",
+    "CH": "Switzerland",
+    "PL": "Poland",
+    "GT": "Guatemala",
+    "TO": "Tonga",
+    "RO": "Romania",
+    "SK": "Slovakia",
+    "LA": "Laos",
+    "FJ": "Fiji",
+    "BZ": "Belize",
+    "TC": "Turks and Caicos Islands",
+    "VU": "Vanuatu",
+    "DK": "Denmark",
+    "LV": "Latvia",
+    "HR": "Croatia",
+    "AT": "Austria",
+    "ZA": "South Africa",
+    "KE": "Kenya",
+    "TW": "Taiwan",
+    "KR": "South Korea",
+    "KZ": "Kazakhstan",
+    "PK": "Pakistan",
+    "CO": "Colombia",
+    "GR": "Greece",
+    "RU": "Russia",
+    "CL": "Chile",
+    "EG": "Egypt",
+    "PH": "Philippines",
+    "CZ": "Czechia",
+    "BM": "Bermuda",
+    "AM": "Armenia",
+    "UG": "Uganda",
+    "TN": "Tunisia",
+    "MX": "Mexico",
+    "UA": "Ukraine",
+    "JM": "Jamaica",
+    "PA": "Panama",
+    "AL": "Albania",
+    "ID": "Indonesia",
+    "BG": "Bulgaria",
+    "VI": "Virgin Islands, U.S.",
+    "SI": "Slovenia",
+    "SL": "Sierra Leone",
+    "IL": "Israel",
+    "MY": "Malaysia",
+    "BB": "Barbados",
+    "HN": "Honduras"
+  },
+  "leftOutCredential": 0,
+  "leftOutListing": 0,
+  "left_out_by_reason": {
+    "listing page, not a data call": 0,
+    "credential in the address": 0,
+    "private or local address": 0,
+    "email-like address": 0,
+    "survey form layer": 236,
+    "camera or image URL": 0,
+    "stored-login proxy": 0,
+    "class-exercise copy": 0,
+    "editable layer": 1,
+    "police stop records": 0,
+    "form answer layer": 23,
+    "needs an Indian network location": 0,
+    "leak check match": 0,
+    "coursework layer": 118,
+    "public input layer": 16,
+    "service name like a class layer or a person": 0,
+    "social network server information": 0,
+    "repeated address": 0
+  },
+  "leftOutExcluded": 0,
+  "left_out_by_rule": [],
+  "sample_rows": 1000,
+  "focus_rows": 7886,
+  "arcgis_online_rows": 11151,
+  "subcategories": {},
+  "agent_formats": [
+    "json"
+  ],
+  "largestServices": [
+    {
+      "service": "BSH geospatial data (Germany)",
+      "display": "BSH geospatial data (Germany)",
+      "host": "gdi.bsh.de",
+      "endpoints": 7278,
+      "agent_ready": 8,
+      "in_focus": 972,
+      "country_codes": 1,
+      "formats": [
+        "xml",
+        "txt",
+        "csv",
+        "json"
+      ]
+    },
+    {
+      "service": "Digitraffic",
+      "display": "Digitraffic",
+      "host": "meri.digitraffic.fi",
+      "endpoints": 1121,
+      "agent_ready": 695,
+      "in_focus": 1121,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Usgs",
+      "display": "Usgs",
+      "host": "data.usgs.gov",
+      "endpoints": 988,
+      "agent_ready": 0,
+      "in_focus": 340,
+      "country_codes": 1,
+      "formats": [
+        "xml"
+      ]
+    },
+    {
+      "service": "Transparenzportal Hamburg",
+      "display": "Transparenzportal Hamburg",
+      "host": "archiv.transparenz.hamburg.de",
+      "endpoints": 232,
+      "agent_ready": 1,
+      "in_focus": 182,
+      "country_codes": 1,
+      "formats": [
+        "xml",
+        "json",
+        "zip"
+      ]
+    },
+    {
+      "service": "Eurostat dissemination API",
+      "display": "Eurostat dissemination API",
+      "host": "ec.europa.eu",
+      "endpoints": 198,
+      "agent_ready": 0,
+      "in_focus": 165,
+      "country_codes": 1,
+      "formats": [
+        "csv",
+        "txt"
+      ]
+    },
+    {
+      "service": "Doi",
+      "display": "Doi",
+      "host": "doi.org",
+      "endpoints": 188,
+      "agent_ready": 188,
+      "in_focus": 46,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization YiULsZbgRKmBtdZN",
+      "display": "ArcGIS Online layers (services1.arcgis.com, org YiULsZbgRKmBtdZN)",
+      "host": "services1.arcgis.com",
+      "endpoints": 161,
+      "agent_ready": 161,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "BrisMAP Public (ArcGIS Online)",
+      "display": "BrisMAP Public (ArcGIS Online)",
+      "host": "services2.arcgis.com",
+      "endpoints": 129,
+      "agent_ready": 129,
+      "in_focus": 26,
+      "country_codes": 3,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Open Data Portal | Queensland Government",
+      "display": "Open Data Portal | Queensland Government",
+      "host": "data.qld.gov.au",
+      "endpoints": 129,
+      "agent_ready": 129,
+      "in_focus": 47,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Noaa",
+      "display": "Noaa",
+      "host": "data.ngdc.noaa.gov",
+      "endpoints": 115,
+      "agent_ready": 0,
+      "in_focus": 101,
+      "country_codes": 1,
+      "formats": [
+        "csv",
+        "xml"
+      ]
+    },
+    {
+      "service": "vector.sitg.ge.ch",
+      "display": "vector.sitg.ge.ch",
+      "host": "vector.sitg.ge.ch",
+      "endpoints": 115,
+      "agent_ready": 115,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "University of Florida (ArcGIS Online)",
+      "display": "University of Florida (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 107,
+      "agent_ready": 107,
+      "in_focus": 0,
+      "country_codes": 2,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization V9zL6jzLdVCgrx6S",
+      "display": "ArcGIS Online layers (services8.arcgis.com, org V9zL6jzLdVCgrx6S)",
+      "host": "services8.arcgis.com",
+      "endpoints": 99,
+      "agent_ready": 99,
+      "in_focus": 8,
+      "country_codes": 3,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Cioosatlantic",
+      "display": "Cioosatlantic",
+      "host": "cioosatlantic.ca",
+      "endpoints": 98,
+      "agent_ready": 98,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Municipality of Anchorage (ArcGIS Online)",
+      "display": "Municipality of Anchorage (ArcGIS Online)",
+      "host": "services2.arcgis.com",
+      "endpoints": 98,
+      "agent_ready": 98,
+      "in_focus": 1,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Destatis GENESIS (Germany)",
+      "display": "Destatis GENESIS (Germany)",
+      "host": "genesis.destatis.de",
+      "endpoints": 97,
+      "agent_ready": 0,
+      "in_focus": 73,
+      "country_codes": 1,
+      "formats": [
+        "xml",
+        "txt"
+      ]
+    },
+    {
+      "service": "Compute 1 (AWS)",
+      "display": "Compute 1 (AWS)",
+      "host": "ec2-50-19-218-171.compute-1.amazonaws.com",
+      "endpoints": 96,
+      "agent_ready": 96,
+      "in_focus": 96,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Northeastoceandata",
+      "display": "Northeastoceandata",
+      "host": "devservices.northeastoceandata.org",
+      "endpoints": 96,
+      "agent_ready": 96,
+      "in_focus": 96,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "NOAA GeoPlatform (ArcGIS Online)",
+      "display": "NOAA GeoPlatform (ArcGIS Online)",
+      "host": "services2.arcgis.com",
+      "endpoints": 91,
+      "agent_ready": 91,
+      "in_focus": 15,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Ioos",
+      "display": "Ioos",
+      "host": "atn.ioos.us",
+      "endpoints": 90,
+      "agent_ready": 90,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization jDGuO8tYggdCCnUJ",
+      "display": "ArcGIS Online layers (services.arcgis.com, org jDGuO8tYggdCCnUJ)",
+      "host": "services.arcgis.com",
+      "endpoints": 86,
+      "agent_ready": 86,
+      "in_focus": 3,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "gis.dnr.wa.gov",
+      "display": "gis.dnr.wa.gov",
+      "host": "gis.dnr.wa.gov",
+      "endpoints": 86,
+      "agent_ready": 86,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Canadian Urban Data Catalogue (CUDC)",
+      "display": "Canadian Urban Data Catalogue (CUDC)",
+      "host": "api-proxy.edh-cde.dfo-mpo.gc.ca",
+      "endpoints": 83,
+      "agent_ready": 0,
+      "in_focus": 46,
+      "country_codes": 1,
+      "formats": [
+        "csv",
+        "txt"
+      ]
+    },
+    {
+      "service": "ArcGIS organization VL3y0UFwNNVn5BNL",
+      "display": "ArcGIS Online layers (services3.arcgis.com, org VL3y0UFwNNVn5BNL)",
+      "host": "services3.arcgis.com",
+      "endpoints": 79,
+      "agent_ready": 79,
+      "in_focus": 0,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "University of Illinois (ArcGIS Online)",
+      "display": "University of Illinois (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 75,
+      "agent_ready": 75,
+      "in_focus": 4,
+      "country_codes": 4,
+      "formats": [
+        "json"
+      ]
+    }
+  ],
+  "bannerGroups": [
+    {
+      "label": "US",
+      "n": 10613,
+      "agent": 9352
+    },
+    {
+      "label": "DE",
+      "n": 7847,
+      "agent": 61
+    },
+    {
+      "label": "FI",
+      "n": 1128,
+      "agent": 701
+    },
+    {
+      "label": "GB",
+      "n": 674,
+      "agent": 672
+    },
+    {
+      "label": "CA",
+      "n": 636,
+      "agent": 436
+    },
+    {
+      "label": "AU",
+      "n": 579,
+      "agent": 538
+    }
+  ],
+  "focus_text": "(title matches /(^|[^a-zäöüß])(ports?|harbou?rs?|ferr(y|ies)|ferryboats?|ships?|shipping|vessels?|boats?|marinas?|maritime|nautical|navigation|navigational|seaports?|wharf|wharves|piers?|docks?|berths?|anchorages?|lighthouses?|shipwrecks?|wrecks?|cargo|freight|tankers?|cruise|fleet|locode|ais|waterways?|canals?|moorings?|fairways?|seafarers?|schiff\\w*|hafen\\w*|häfen|fähr\\w*|seefahrt|liegepl\\w*|havn|hamn|puertos?|porto|bacs?)([^a-zäöüß]|$)/i AND NOT title matches /harbou?r (seals?|porpoises?)|harbor mall|\\b(gig|grays|bar|stone|ybor|old|sag|boothbay|benton) harbou?r\\b|\\bport (orange|lincoln|st\\.? ?lucie|arthur|aransas|royal|angeles|townsend|huron|charlotte|hueneme|macquarie|moody|alberni|richey|neches|hedland|pirie|wentworth)\\b|\\b(bonners|lees|harpers) ferry\\b|port harcourt|charente-maritime|portes ouvertes|charging|harbor mountain|storm ?(water|drain)|shipping updates|go-ship|rail freight|street tree|statistical district/i) AND NOT url contains \"/erddap/info/\" AND NOT host is erddap.sensors.ioos.us",
+  "buckets": [
+    {
+      "id": "agent",
+      "emoji": "🤖",
+      "name": "Agent tools",
+      "title": "Port calls, harbour limits and chart features an agent can query",
+      "build": "Wrap the port-call URL as a get_port_calls tool: pass a UN/LOCODE port code (FIHEL), return the ships with arrival and departure times; add a timeout.",
+      "filter": {
+        "and": [
+          {
+            "tag": "agent-ready"
+          },
+          {
+            "not": {
+              "urlIncludes": "/erddap/info/"
+            }
+          },
+          {
+            "and": [
+              {
+                "titleMatches": "(^|[^a-zäöüß])(ports?|harbou?rs?|ferr(y|ies)|ferryboats?|ships?|shipping|vessels?|boats?|marinas?|maritime|nautical|navigation|navigational|seaports?|wharf|wharves|piers?|docks?|berths?|anchorages?|lighthouses?|shipwrecks?|wrecks?|cargo|freight|tankers?|cruise|fleet|locode|ais|waterways?|canals?|moorings?|fairways?|seafarers?|schiff\\w*|hafen\\w*|häfen|fähr\\w*|seefahrt|liegepl\\w*|havn|hamn|puertos?|porto|bacs?)([^a-zäöüß]|$)"
+              },
+              {
+                "not": {
+                  "titleMatches": "harbou?r (seals?|porpoises?)|harbor mall|\\b(gig|grays|bar|stone|ybor|old|sag|boothbay|benton) harbou?r\\b|\\bport (orange|lincoln|st\\.? ?lucie|arthur|aransas|royal|angeles|townsend|huron|charlotte|hueneme|macquarie|moody|alberni|richey|neches|hedland|pirie|wentworth)\\b|\\b(bonners|lees|harpers) ferry\\b|port harcourt|charente-maritime|portes ouvertes|charging|harbor mountain|storm ?(water|drain)|shipping updates|go-ship|rail freight|street tree|statistical district"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "filter_text": "tags has agent-ready AND NOT url contains \"/erddap/info/\" AND (title matches /(^|[^a-zäöüß])(ports?|harbou?rs?|ferr(y|ies)|ferryboats?|ships?|shipping|vessels?|boats?|marinas?|maritime|nautical|navigation|navigational|seaports?|wharf|wharves|piers?|docks?|berths?|anchorages?|lighthouses?|shipwrecks?|wrecks?|cargo|freight|tankers?|cruise|fleet|locode|ais|waterways?|canals?|moorings?|fairways?|seafarers?|schiff\\w*|hafen\\w*|häfen|fähr\\w*|seefahrt|liegepl\\w*|havn|hamn|puertos?|porto|bacs?)([^a-zäöüß]|$)/i AND NOT title matches /harbou?r (seals?|porpoises?)|harbor mall|\\b(gig|grays|bar|stone|ybor|old|sag|boothbay|benton) harbou?r\\b|\\bport (orange|lincoln|st\\.? ?lucie|arthur|aransas|royal|angeles|townsend|huron|charlotte|hueneme|macquarie|moody|alberni|richey|neches|hedland|pirie|wentworth)\\b|\\b(bonners|lees|harpers) ferry\\b|port harcourt|charente-maritime|portes ouvertes|charging|harbor mountain|storm ?(water|drain)|shipping updates|go-ship|rail freight|street tree|statistical district/i)",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 3895,
+          "text": "are map-layer queries that asked for a few records (`resultRecordCount`); raise it or page through for the whole layer."
+        }
+      ],
+      "count": 5035,
+      "services_matching": 1513,
+      "country_codes_matching": 51,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://meri.digitraffic.fi/api/port-call/v1/port-calls?locode=FIHEL",
+        "title": "Digitraffic port calls: Helsinki (Helsingfors)",
+        "service": "Digitraffic",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and are tagged `agent-ready` (no key sent in the test call, JSON body, passed a data call). Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `url contains \"port-calls?locode=FIHEL\" OR host is encdirect.noaa.gov`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 1513,
+        "services": [
+          {
+            "service": "Digitraffic",
+            "display": "Digitraffic",
+            "host": "meri.digitraffic.fi",
+            "endpoints_in_bucket": 695,
+            "endpoints_in_pack": 1121,
+            "country_codes": [
+              "FI"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://meri.digitraffic.fi/api/port-call/v1/port-calls?locode=FIHEL",
+            "sample_title": "Digitraffic port calls: Helsinki (Helsingfors)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Compute 1 (AWS)",
+            "display": "Compute 1 (AWS)",
+            "host": "ec2-50-19-218-171.compute-1.amazonaws.com",
+            "endpoints_in_bucket": 96,
+            "endpoints_in_pack": 96,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "http://ec2-50-19-218-171.compute-1.amazonaws.com/arcgis1/rest/services/Administrative/MapServer/9/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ec2-50-19-218-171.compute-1.amazonaws.com: Administrative / 200NM EEZ and Maritime Boundaries",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Northeastoceandata",
+            "display": "Northeastoceandata",
+            "host": "devservices.northeastoceandata.org",
+            "endpoints_in_bucket": 96,
+            "endpoints_in_pack": 96,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://devservices.northeastoceandata.org/neoddev/rest/services/Administrative/MapServer/7/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "devservices.northeastoceandata.org: Administrative / 200NM EEZ and Maritime Boundaries",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "GIS WebTech (ArcGIS Online)",
+            "display": "GIS WebTech (ArcGIS Online)",
+            "host": "services6.arcgis.com",
+            "endpoints_in_bucket": 66,
+            "endpoints_in_pack": 74,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services6.arcgis.com/BAJNi3EgCdtQ1BCG/arcgis/rest/services/Aberdeen%20Port%20Industrial%20ParkProperty%20Outline%20Publish185/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Aberdeen Port Industrial Park- property Outline",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Open Data Portal | Queensland Government",
+            "display": "Open Data Portal | Queensland Government",
+            "host": "data.qld.gov.au",
+            "endpoints_in_bucket": 47,
+            "endpoints_in_pack": 129,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://data.qld.gov.au/api/3/action/datastore_search?resource_id=03d61d9c-d399-478f-9ed3-0c57f002c027&limit=1",
+            "sample_title": "Recreational ships registered",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Doi",
+            "display": "Doi",
+            "host": "doi.org",
+            "endpoints_in_bucket": 46,
+            "endpoints_in_pack": 188,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://doi.org/10.5066/F70G3J3J",
+            "sample_title": "MODFLOW-2000 model used to evaluate alternative withdrawal strategies on groundwater flow in the unconfined Kirkwood-Cohansey aquifer system, the Rio Grande water-bearing zone, and the Atlantic City 800-foot sand in the Great Egg Harbor and Mullica River Basins, New Jersey - Digital Data",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Hong Kong Open Data Portal",
+            "display": "Hong Kong Open Data Portal",
+            "host": "www.censtatd.gov.hk",
+            "endpoints_in_bucket": 33,
+            "endpoints_in_pack": 33,
+            "country_codes": [
+              "HK"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://www.censtatd.gov.hk/api/get.php?id=410-55110&lang=en&full_series=1",
+            "sample_title": "Hong Kong Shipping Statistics - Table 410-55110 : Port Cargo Throughput - Table 410-55110 : Port cargo throughput [English]",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Ecan",
+            "display": "Ecan",
+            "host": "gis.ecan.govt.nz",
+            "endpoints_in_bucket": 30,
+            "endpoints_in_pack": 40,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://gis.ecan.govt.nz/arcgis/rest/services/Public/Harbours/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Maritime Markers",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "app",
+      "emoji": "📱",
+      "name": "App features",
+      "title": "Port, ferry, mooring and harbour maps",
+      "build": "Show ports, ferry piers, moorings and harbour limits on a coastal map card, with the layer name and the date it passed.",
+      "filter": {
+        "and": [
+          {
+            "or": [
+              {
+                "tag": "maps"
+              },
+              {
+                "format": [
+                  "geojson",
+                  "csv"
+                ]
+              }
+            ]
+          },
+          {
+            "not": {
+              "urlIncludes": "/erddap/"
+            }
+          },
+          {
+            "not": {
+              "tag": "statistics"
+            }
+          },
+          {
+            "not": {
+              "host": [
+                "gdi.bsh.de",
+                "ec.europa.eu",
+                "genesis.destatis.de"
+              ]
+            }
+          },
+          {
+            "and": [
+              {
+                "titleMatches": "(^|[^a-zäöüß])(ports?|harbou?rs?|ferr(y|ies)|ferryboats?|ships?|shipping|vessels?|boats?|marinas?|maritime|nautical|navigation|navigational|seaports?|wharf|wharves|piers?|docks?|berths?|anchorages?|lighthouses?|shipwrecks?|wrecks?|cargo|freight|tankers?|cruise|fleet|locode|ais|waterways?|canals?|moorings?|fairways?|seafarers?|schiff\\w*|hafen\\w*|häfen|fähr\\w*|seefahrt|liegepl\\w*|havn|hamn|puertos?|porto|bacs?)([^a-zäöüß]|$)"
+              },
+              {
+                "not": {
+                  "titleMatches": "harbou?r (seals?|porpoises?)|harbor mall|\\b(gig|grays|bar|stone|ybor|old|sag|boothbay|benton) harbou?r\\b|\\bport (orange|lincoln|st\\.? ?lucie|arthur|aransas|royal|angeles|townsend|huron|charlotte|hueneme|macquarie|moody|alberni|richey|neches|hedland|pirie|wentworth)\\b|\\b(bonners|lees|harpers) ferry\\b|port harcourt|charente-maritime|portes ouvertes|charging|harbor mountain|storm ?(water|drain)|shipping updates|go-ship|rail freight|street tree|statistical district"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "filter_text": "(tags has maps OR format in (geojson, csv)) AND NOT url contains \"/erddap/\" AND NOT tags has statistics AND NOT host in (gdi.bsh.de, ec.europa.eu, genesis.destatis.de) AND (title matches /(^|[^a-zäöüß])(ports?|harbou?rs?|ferr(y|ies)|ferryboats?|ships?|shipping|vessels?|boats?|marinas?|maritime|nautical|navigation|navigational|seaports?|wharf|wharves|piers?|docks?|berths?|anchorages?|lighthouses?|shipwrecks?|wrecks?|cargo|freight|tankers?|cruise|fleet|locode|ais|waterways?|canals?|moorings?|fairways?|seafarers?|schiff\\w*|hafen\\w*|häfen|fähr\\w*|seefahrt|liegepl\\w*|havn|hamn|puertos?|porto|bacs?)([^a-zäöüß]|$)/i AND NOT title matches /harbou?r (seals?|porpoises?)|harbor mall|\\b(gig|grays|bar|stone|ybor|old|sag|boothbay|benton) harbou?r\\b|\\bport (orange|lincoln|st\\.? ?lucie|arthur|aransas|royal|angeles|townsend|huron|charlotte|hueneme|macquarie|moody|alberni|richey|neches|hedland|pirie|wentworth)\\b|\\b(bonners|lees|harpers) ferry\\b|port harcourt|charente-maritime|portes ouvertes|charging|harbor mountain|storm ?(water|drain)|shipping updates|go-ship|rail freight|street tree|statistical district/i)",
+      "fallback": false,
+      "notes": [],
+      "count": 5056,
+      "services_matching": 1534,
+      "country_codes_matching": 47,
+      "formats_matching": 5,
+      "example": {
+        "url": "https://meri.digitraffic.fi/api/ais/v1/locations?mmsi=111265582",
+        "title": "Fintraffic Digitraffic: AIS last position: LIFEGUARD 002 (MMSI 111265582)",
+        "service": "Digitraffic",
+        "last_tested": "2026-11-15"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i AND (format is geojson OR host is encdirect.noaa.gov OR title matches /ferry|mooring|berth|harbour limits|port facilit/i)`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 1534,
+        "services": [
+          {
+            "service": "Digitraffic",
+            "display": "Digitraffic",
+            "host": "meri.digitraffic.fi",
+            "endpoints_in_bucket": 426,
+            "endpoints_in_pack": 1121,
+            "country_codes": [
+              "FI"
+            ],
+            "formats": [
+              "geojson"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://meri.digitraffic.fi/api/ais/v1/locations?mmsi=111265582",
+            "sample_title": "Fintraffic Digitraffic: AIS last position: LIFEGUARD 002 (MMSI 111265582)",
+            "sample_format": "geojson",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Transparenzportal Hamburg",
+            "display": "Transparenzportal Hamburg",
+            "host": "archiv.transparenz.hamburg.de",
+            "endpoints_in_bucket": 182,
+            "endpoints_in_pack": 232,
+            "country_codes": [
+              "DE"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/hh_wfs_hafengebietsgrenzen_119437_snap_1.XML",
+            "sample_title": "Hafengebietsgrenzen Hamburg - Dienst \"WFS Hafengebietsgrenzen Hamburg\" (GetCapabilities)",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Noaa",
+            "display": "Noaa",
+            "host": "data.ngdc.noaa.gov",
+            "endpoints_in_bucket": 97,
+            "endpoints_in_pack": 115,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "csv"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://data.ngdc.noaa.gov/platforms/ocean/nos/coast/D00001-D02000/D00127/GEODAS/D00127.a93.gz",
+            "sample_title": "D00127: NOS Hydrographic Survey , Key West Harbor and Approaches, Florida, 1998-10-06 - D00127.a93.gz",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Compute 1 (AWS)",
+            "display": "Compute 1 (AWS)",
+            "host": "ec2-50-19-218-171.compute-1.amazonaws.com",
+            "endpoints_in_bucket": 96,
+            "endpoints_in_pack": 96,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "http://ec2-50-19-218-171.compute-1.amazonaws.com/arcgis1/rest/services/Administrative/MapServer/9/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ec2-50-19-218-171.compute-1.amazonaws.com: Administrative / 200NM EEZ and Maritime Boundaries",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Northeastoceandata",
+            "display": "Northeastoceandata",
+            "host": "devservices.northeastoceandata.org",
+            "endpoints_in_bucket": 96,
+            "endpoints_in_pack": 96,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://devservices.northeastoceandata.org/neoddev/rest/services/Administrative/MapServer/7/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "devservices.northeastoceandata.org: Administrative / 200NM EEZ and Maritime Boundaries",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "GIS WebTech (ArcGIS Online)",
+            "display": "GIS WebTech (ArcGIS Online)",
+            "host": "services6.arcgis.com",
+            "endpoints_in_bucket": 66,
+            "endpoints_in_pack": 74,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services6.arcgis.com/BAJNi3EgCdtQ1BCG/arcgis/rest/services/Aberdeen%20Port%20Industrial%20ParkProperty%20Outline%20Publish185/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Aberdeen Port Industrial Park- property Outline",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Canadian Urban Data Catalogue (CUDC)",
+            "display": "Canadian Urban Data Catalogue (CUDC)",
+            "host": "api-proxy.edh-cde.dfo-mpo.gc.ca",
+            "endpoints_in_bucket": 43,
+            "endpoints_in_pack": 83,
+            "country_codes": [
+              "CA"
+            ],
+            "formats": [
+              "csv"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://api-proxy.edh-cde.dfo-mpo.gc.ca/catalogue/records/044e733f-7560-422b-b8ab-046218f92160/attachments/Dictionnaire_de_donnees_data_dictionary_BDISM.csv",
+            "sample_title": "Underwater video analysis data of the coastal zone of maritime Quebec - Data dictionary video analysis maritime Quebec",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Ecan",
+            "display": "Ecan",
+            "host": "gis.ecan.govt.nz",
+            "endpoints_in_bucket": 30,
+            "endpoints_in_pack": 40,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://gis.ecan.govt.nz/arcgis/rest/services/Public/Harbours/MapServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Swing Moorings",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grounding",
+      "emoji": "🧠",
+      "name": "Grounding and data pipelines",
+      "title": "Maritime freight, port traffic and inland shipping tables for scheduled loads",
+      "build": "Load freight, port-call and ship-count tables on a schedule into your own store, so answers about port traffic cite a dated table.",
+      "filter": {
+        "and": [
+          {
+            "format": [
+              "csv",
+              "txt",
+              "xml",
+              "zip"
+            ]
+          },
+          {
+            "and": [
+              {
+                "titleMatches": "(^|[^a-zäöüß])(ports?|harbou?rs?|ferr(y|ies)|ferryboats?|ships?|shipping|vessels?|boats?|marinas?|maritime|nautical|navigation|navigational|seaports?|wharf|wharves|piers?|docks?|berths?|anchorages?|lighthouses?|shipwrecks?|wrecks?|cargo|freight|tankers?|cruise|fleet|locode|ais|waterways?|canals?|moorings?|fairways?|seafarers?|schiff\\w*|hafen\\w*|häfen|fähr\\w*|seefahrt|liegepl\\w*|havn|hamn|puertos?|porto|bacs?)([^a-zäöüß]|$)"
+              },
+              {
+                "not": {
+                  "titleMatches": "harbou?r (seals?|porpoises?)|harbor mall|\\b(gig|grays|bar|stone|ybor|old|sag|boothbay|benton) harbou?r\\b|\\bport (orange|lincoln|st\\.? ?lucie|arthur|aransas|royal|angeles|townsend|huron|charlotte|hueneme|macquarie|moody|alberni|richey|neches|hedland|pirie|wentworth)\\b|\\b(bonners|lees|harpers) ferry\\b|port harcourt|charente-maritime|portes ouvertes|charging|harbor mountain|storm ?(water|drain)|shipping updates|go-ship|rail freight|street tree|statistical district"
+                }
+              }
+            ]
+          },
+          {
+            "not": {
+              "host": "gdi.bsh.de"
+            }
+          },
+          {
+            "not": {
+              "urlIncludes": "/erddap/"
+            }
+          }
+        ]
+      },
+      "filter_text": "format in (csv, txt, xml, zip) AND (title matches /(^|[^a-zäöüß])(ports?|harbou?rs?|ferr(y|ies)|ferryboats?|ships?|shipping|vessels?|boats?|marinas?|maritime|nautical|navigation|navigational|seaports?|wharf|wharves|piers?|docks?|berths?|anchorages?|lighthouses?|shipwrecks?|wrecks?|cargo|freight|tankers?|cruise|fleet|locode|ais|waterways?|canals?|moorings?|fairways?|seafarers?|schiff\\w*|hafen\\w*|häfen|fähr\\w*|seefahrt|liegepl\\w*|havn|hamn|puertos?|porto|bacs?)([^a-zäöüß]|$)/i AND NOT title matches /harbou?r (seals?|porpoises?)|harbor mall|\\b(gig|grays|bar|stone|ybor|old|sag|boothbay|benton) harbou?r\\b|\\bport (orange|lincoln|st\\.? ?lucie|arthur|aransas|royal|angeles|townsend|huron|charlotte|hueneme|macquarie|moody|alberni|richey|neches|hedland|pirie|wentworth)\\b|\\b(bonners|lees|harpers) ferry\\b|port harcourt|charente-maritime|portes ouvertes|charging|harbor mountain|storm ?(water|drain)|shipping updates|go-ship|rail freight|street tree|statistical district/i) AND NOT host is gdi.bsh.de AND NOT url contains \"/erddap/\"",
+      "fallback": false,
+      "notes": [],
+      "count": 1390,
+      "services_matching": 117,
+      "country_codes_matching": 22,
+      "formats_matching": 4,
+      "example": {
+        "url": "https://data.usgs.gov/datacatalog/metadata/USGS.4b08628c-f376-4813-b700-d5ab33ec6082.xml",
+        "title": "R/V San Lorenzo (receive vessel) navigation and survey geometry from USGS field activity 2021-619-FA collected in April of 2021 offshore Santa Cruz, CA - Original Metadata",
+        "service": "Usgs",
+        "last_tested": "2026-11-15"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i AND title matches /maritime|seaborne|ships by|vessels?|inland waterway|port of|passengers|cargo/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 117,
+        "services": [
+          {
+            "service": "Usgs",
+            "display": "Usgs",
+            "host": "data.usgs.gov",
+            "endpoints_in_bucket": 340,
+            "endpoints_in_pack": 988,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://data.usgs.gov/datacatalog/metadata/USGS.4b08628c-f376-4813-b700-d5ab33ec6082.xml",
+            "sample_title": "R/V San Lorenzo (receive vessel) navigation and survey geometry from USGS field activity 2021-619-FA collected in April of 2021 offshore Santa Cruz, CA - Original Metadata",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Transparenzportal Hamburg",
+            "display": "Transparenzportal Hamburg",
+            "host": "archiv.transparenz.hamburg.de",
+            "endpoints_in_bucket": 182,
+            "endpoints_in_pack": 232,
+            "country_codes": [
+              "DE"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/hh_wfs_hafengebietsgrenzen_119437_snap_1.XML",
+            "sample_title": "Hafengebietsgrenzen Hamburg - Dienst \"WFS Hafengebietsgrenzen Hamburg\" (GetCapabilities)",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Eurostat dissemination API",
+            "display": "Eurostat dissemination API",
+            "host": "ec.europa.eu",
+            "endpoints_in_bucket": 165,
+            "endpoints_in_pack": 198,
+            "country_codes": [
+              "EU"
+            ],
+            "formats": [
+              "csv",
+              "txt"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/enps_mar_eq1000?format=SDMX-CSV&compressed=true",
+            "sample_title": "Number of ships of 1000 GT and over by type of vessel - ENP-South countries",
+            "sample_format": "txt",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Noaa",
+            "display": "Noaa",
+            "host": "data.ngdc.noaa.gov",
+            "endpoints_in_bucket": 101,
+            "endpoints_in_pack": 115,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "csv",
+              "xml"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://data.ngdc.noaa.gov/platforms/ocean/nos/coast/F00001-F02000/F00640/DR/F00640_DR.xml",
+            "sample_title": "F00640: NOS Hydrographic Survey , Port of Miami, FL, 2014-01-31 - F00640_DR.xml",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Destatis GENESIS (Germany)",
+            "display": "Destatis GENESIS (Germany)",
+            "host": "genesis.destatis.de",
+            "endpoints_in_bucket": 73,
+            "endpoints_in_pack": 97,
+            "country_codes": [
+              "DE"
+            ],
+            "formats": [
+              "xml",
+              "txt"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://genesis.destatis.de/genesisWS/downloads/00/tables/46311-0001_00.csv",
+            "sample_title": "Companies, turnover, personnel, ships (inland waterways): Germany, years",
+            "sample_format": "txt",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Canadian Urban Data Catalogue (CUDC)",
+            "display": "Canadian Urban Data Catalogue (CUDC)",
+            "host": "api-proxy.edh-cde.dfo-mpo.gc.ca",
+            "endpoints_in_bucket": 46,
+            "endpoints_in_pack": 83,
+            "country_codes": [
+              "CA"
+            ],
+            "formats": [
+              "csv",
+              "txt"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://api-proxy.edh-cde.dfo-mpo.gc.ca/catalogue/records/044e733f-7560-422b-b8ab-046218f92160/attachments/Dictionnaire_de_donnees_data_dictionary_BDISM.csv",
+            "sample_title": "Underwater video analysis data of the coastal zone of maritime Quebec - Data dictionary video analysis maritime Quebec",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Canadian Urban Data Catalogue (CUDC)",
+            "display": "Canadian Urban Data Catalogue (CUDC)",
+            "host": "data.novascotia.ca",
+            "endpoints_in_bucket": 25,
+            "endpoints_in_pack": 47,
+            "country_codes": [
+              "CA"
+            ],
+            "formats": [
+              "csv"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://data.novascotia.ca/api/views/7izn-s679/rows.csv?accessType=DOWNLOAD",
+            "sample_title": "Ferry Schedules - Ferry Schedules (CSV)",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Lacity",
+            "display": "Lacity",
+            "host": "data.lacity.org",
+            "endpoints_in_bucket": 24,
+            "endpoints_in_pack": 48,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "xml",
+              "csv",
+              "zip"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://data.lacity.org/api/geospatial/az58-m5hh?method=export&format=KML",
+            "sample_title": "Port of Los Angeles Fire and Police Station Locations - KML File",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evals",
+      "emoji": "🧪",
+      "name": "Evals and testing",
+      "title": "Port calls, layers and tables to test a maritime tool",
+      "build": "Run your maritime tool against a fixed set of URLs across formats; check that port code, ship name, time or feature geometry parse, and keep last_tested as the baseline for your own re-tests.",
+      "filter": {
+        "whole": true
+      },
+      "filter_text": "the whole pack",
+      "fallback": false,
+      "notes": [],
+      "count": 24827,
+      "services_matching": 3457,
+      "country_codes_matching": 73,
+      "formats_matching": 6,
+      "example": {
+        "url": "https://meri.digitraffic.fi/api/port-call/v1/port-calls?locode=FIHEL",
+        "title": "Digitraffic port calls: Helsinki (Helsingfors)",
+        "service": "Digitraffic",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack that returned the most different formats, then the most endpoints that passed a data call, then by name: a mix of response shapes to test parsers and tool calls. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i AND (url contains \"port-calls?locode=FIHEL\" OR format is geojson)`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 1605,
+        "services": [
+          {
+            "service": "geo.sv.rostock.de",
+            "display": "geo.sv.rostock.de",
+            "host": "geo.sv.rostock.de",
+            "endpoints_in_bucket": 54,
+            "endpoints_in_pack": 54,
+            "country_codes": [
+              "DE"
+            ],
+            "formats": [
+              "xml",
+              "csv",
+              "geojson",
+              "json",
+              "txt"
+            ],
+            "formats_in_pack": 5,
+            "sample_url": "https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.json",
+            "sample_title": "Ferry piers",
+            "sample_format": "geojson",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Open Development Mekong Datahub",
+            "display": "Open Development Mekong Datahub",
+            "host": "data.opendevelopmentmekong.net",
+            "endpoints_in_bucket": 32,
+            "endpoints_in_pack": 32,
+            "country_codes": [
+              "KH",
+              "MM"
+            ],
+            "formats": [
+              "csv",
+              "json",
+              "geojson",
+              "xml",
+              "zip"
+            ],
+            "formats_in_pack": 5,
+            "sample_url": "https://data.opendevelopmentmekong.net/vi/dataset/35aa1dff-a427-442f-b057-e71a71dc1eb9/resource/b5b1678c-0762-4196-8149-7ca041c6277d/download/harborgeojson.geojson",
+            "sample_title": "Harbor and port of Vietnam - Harbor_english",
+            "sample_format": "geojson",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "BSH geospatial data (Germany)",
+            "display": "BSH geospatial data (Germany)",
+            "host": "gdi.bsh.de",
+            "endpoints_in_bucket": 7278,
+            "endpoints_in_pack": 7278,
+            "country_codes": [
+              "DE"
+            ],
+            "formats": [
+              "xml",
+              "txt",
+              "csv",
+              "json"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://gdi.bsh.de/de/data/Transport-Networks-Water-Transport-Network.json",
+            "sample_title": "Verkehrsnetze (Schifffahrtswege)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Lacity",
+            "display": "Lacity",
+            "host": "data.lacity.org",
+            "endpoints_in_bucket": 48,
+            "endpoints_in_pack": 48,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json",
+              "xml",
+              "csv",
+              "zip"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://data.lacity.org/api/views/2t3h-my34/rows.json?accessType=DOWNLOAD",
+            "sample_title": "Port of Los Angeles - Emission from Port Operations (2005 - 2012) - JSON File",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "ArcGIS Online: Blue Whiting Spawning & Nursery Grounds",
+            "display": "ArcGIS Online: Blue Whiting Spawning & Nursery Grounds",
+            "host": "msp-opendata-marineplan.hub.arcgis.com",
+            "endpoints_in_bucket": 41,
+            "endpoints_in_pack": 41,
+            "country_codes": [
+              "IE"
+            ],
+            "formats": [
+              "xml",
+              "csv",
+              "geojson",
+              "json"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://msp-opendata-marineplan.hub.arcgis.com/api/download/v1/items/0e1db49350304b1ca681e5f8db520c06/geojson?layers=0",
+            "sample_title": "Fishing Port",
+            "sample_format": "geojson",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "data.gov.au",
+            "display": "data.gov.au",
+            "host": "opendata.transport.nsw.gov.au",
+            "endpoints_in_bucket": 39,
+            "endpoints_in_pack": 39,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json",
+              "csv",
+              "txt",
+              "geojson"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://opendata.transport.nsw.gov.au/data/dataset/9a170f05-801a-4a21-abfe-8ac8d2b3bcac/resource/35ae9f78-540e-4c24-8a8a-6e6e80360f2b/download/maritime_coastal_bar.geojson",
+            "sample_title": "Maritime NSW Coastal Bar - Maritime NSW Coastal Bar - GeoJSON Format",
+            "sample_format": "geojson",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "ArcGIS Online: Baronies",
+            "display": "ArcGIS Online: Baronies",
+            "host": "data-osi.opendata.arcgis.com",
+            "endpoints_in_bucket": 15,
+            "endpoints_in_pack": 15,
+            "country_codes": [
+              "IE"
+            ],
+            "formats": [
+              "csv",
+              "json",
+              "zip",
+              "geojson"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://data-osi.opendata.arcgis.com/api/download/v1/items/77d633054056487180918ac9053684fc/geojson?layers=0",
+            "sample_title": "Ferry Crossing - National 250k Map Of Ireland",
+            "sample_format": "geojson",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Transparenzportal Hamburg",
+            "display": "Transparenzportal Hamburg",
+            "host": "archiv.transparenz.hamburg.de",
+            "endpoints_in_bucket": 232,
+            "endpoints_in_pack": 232,
+            "country_codes": [
+              "DE"
+            ],
+            "formats": [
+              "xml",
+              "json",
+              "zip"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/hh_wfs_hafengebietsgrenzen_119437_snap_1.XML",
+            "sample_title": "Hafengebietsgrenzen Hamburg - Dienst \"WFS Hafengebietsgrenzen Hamburg\" (GetCapabilities)",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "q": "Which ships have called at a Finnish port, and when did they arrive and leave?",
+      "filter": "url contains \"meri.digitraffic.fi/api/port-call/v1/port-calls?locode=\" AND title matches /Helsinki|Turku|Kotka|Hamina|Rauma|Oulu|Vaasa|Naantali/i",
+      "url": "https://meri.digitraffic.fi/api/port-call/v1/port-calls?locode=FIHEL",
+      "title": "Digitraffic port calls: Helsinki (Helsingfors)",
+      "service": "Digitraffic",
+      "last_tested": "2026-11-14",
+      "matching": 9
+    },
+    {
+      "q": "How much freight did maritime transport move in each NUTS 2 region?",
+      "filter": "url contains \"ec.europa.eu/eurostat\" AND title matches /Maritime transport of freight by NUTS 2/i",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tgs00076?format=SDMX-CSV&compressed=true",
+      "title": "Maritime transport of freight by NUTS 2 region",
+      "service": "Eurostat dissemination API",
+      "last_tested": "2026-11-14",
+      "matching": 4
+    },
+    {
+      "q": "Which harbor facilities does a NOAA approach and harbor chart layer show?",
+      "filter": "url contains \"encdirect.noaa.gov\" AND title matches /Harbor Facility/i",
+      "url": "https://encdirect.noaa.gov/arcgis/rest/services/encdirect/enc_approach/MapServer/184/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+      "title": "Harbor Facility Polygon - Approach/Harbor",
+      "service": "Noaa",
+      "last_tested": "2026-11-14",
+      "matching": 1
+    },
+    {
+      "q": "Where are the ship moorings in Rostock?",
+      "filter": "url contains \"geo.sv.rostock.de\" AND title matches /Ship moorings/i",
+      "url": "https://geo.sv.rostock.de/download/opendata/schiffsliegeplaetze/schiffsliegeplaetze.csv",
+      "title": "Ship moorings",
+      "service": "geo.sv.rostock.de",
+      "last_tested": "2026-11-14",
+      "matching": 4
+    }
+  ],
+  "preview_focused": true,
+  "preview": [
+    {
+      "title": "Fintraffic Digitraffic: AIS vessel metadata: LIFEGUARD 002 (MMSI 111265582)",
+      "service": "Digitraffic",
+      "country": "FI",
+      "category": "Maritime",
+      "subcategory": "",
+      "format": "json",
+      "tags": "maritime|oceans|traffic|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "meri.digitraffic.fi",
+      "url": "https://meri.digitraffic.fi/api/ais/v1/vessels/111265582"
+    },
+    {
+      "title": "Verkehrsnetze (Schifffahrtswege)",
+      "service": "BSH geospatial data (Germany)",
+      "country": "DE",
+      "category": "Maritime",
+      "subcategory": "",
+      "format": "json",
+      "tags": "maritime|traffic|open-data|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "gdi.bsh.de",
+      "url": "https://gdi.bsh.de/de/data/Transport-Networks-Water-Transport-Network.json"
+    },
+    {
+      "title": "Raw HYPACK navigation logs (text) collected by the U.S. Geological Survey - St. Petersburg Coastal and Marine Science Center offshore of the Gulf Islands, MS, 2010 - Original Metadata",
+      "service": "Usgs",
+      "country": "US",
+      "category": "Maritime",
+      "subcategory": "",
+      "format": "xml",
+      "tags": "maritime|oceans|science|open-data|no-key|xml",
+      "last_tested": "2026-11-15",
+      "host": "data.usgs.gov",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.0000a76f-c6be-4366-8be3-6f8487442e8a.xml"
+    },
+    {
+      "title": "Hafengebietsgrenzen Hamburg - Dienst \"WFS Hafengebietsgrenzen Hamburg\" (GetCapabilities)",
+      "service": "Transparenzportal Hamburg",
+      "country": "DE",
+      "category": "Maritime",
+      "subcategory": "",
+      "format": "xml",
+      "tags": "maritime|maps|open-data|no-key|xml",
+      "last_tested": "2026-11-15",
+      "host": "archiv.transparenz.hamburg.de",
+      "url": "https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/hh_wfs_hafengebietsgrenzen_119437_snap_1.XML"
+    },
+    {
+      "title": "Number of ships of 1000 GT and over by type of vessel - ENP-South countries",
+      "service": "Eurostat dissemination API",
+      "country": "EU",
+      "category": "Maritime",
+      "subcategory": "",
+      "format": "txt",
+      "tags": "maritime|statistics|no-key",
+      "last_tested": "2026-11-14",
+      "host": "ec.europa.eu",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/enps_mar_eq1000?format=SDMX-CSV&compressed=true"
+    }
+  ],
+  "limits": [
+    {
+      "id": "skew",
+      "text": "42.7% of rows carry country code US; 1,124 rows have no code (global or unknown)."
+    },
+    {
+      "id": "erddap-info",
+      "text": "353 rows are ERDDAP /info/ pages: they describe a dataset rather than return its values, so the series needs a second request."
+    },
+    {
+      "id": "record-count",
+      "text": "12,637 rows are map-layer queries with resultRecordCount set: the tested call asked for a few records; change the query to get the full layer."
+    },
+    {
+      "id": "limit-1",
+      "text": "206 rows carry limit=1: the tested call asked for one record; raise the limit or page through."
+    },
+    {
+      "id": "files",
+      "text": "2,317 rows are files (zip 34, txt 2,283) rather than bodies an agent reads directly."
+    },
+    {
+      "id": "arcgis-online",
+      "text": "11,151 rows are layers on ArcGIS Online, where anyone can publish: some are class projects, tests or copies. Check the owner and the fields before you rely on one."
+    },
+    {
+      "id": "pack",
+      "text": "16,340 rows have no ship, port, ferry, harbour or navigation term in the title. Check the title before you use one; they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "6,306 rows are seawater, sediment, wave, current and echo-sounder files from the German maritime agency (BSH) for the North Sea and Baltic: marine data, not ships or ports."
+    },
+    {
+      "id": "pack",
+      "text": "6,210 rows are ArcGIS map layers filed under port, harbor or ferry with no such term in the title; many are local layers such as roads, drains or district boundaries."
+    },
+    {
+      "id": "pack",
+      "text": "454 rows match a port, harbour or shipping word only through a name or another meaning (harbour seals and porpoises, places such as Port Harcourt, Gig Harbor, Port Orange or Bonners Ferry, Charente-Maritime, charging ports, storm drains, map files with shipping updates, rail freight)."
+    },
+    {
+      "id": "pack",
+      "text": "84 rows from New Zealand hosts (.nz) carry country code US in this snapshot; filter by host when you need New Zealand only."
+    },
+    {
+      "id": "pack",
+      "text": "12 rows from Canadian hosts (.ca) carry country code US in this snapshot; filter by host when you need Canada only."
+    },
+    {
+      "id": "quiet",
+      "text": "Stations and feeds can go quiet after their test date; re-test a URL before you rely on it."
+    },
+    {
+      "id": "not-in",
+      "text": "Not in this pack: endpoints that need a key or a POST, and URLs that did not pass."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 236 ArcGIS Survey123 layers (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 1 layer marked editable in the title (it can hold entries that people added)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 23 ArcGIS layers that keep a form's default service name (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 118 ArcGIS class or coursework layers (lab, assignment, exam, quiz, lesson, exercise, tutorial and final-project layers, copies of class layers, layers named for a person or a person's home, and layers whose name ends in a person's name or holds a student number)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 16 ArcGIS layers that hold reports, comments, submissions or form responses sent in by the public."
+    }
+  ],
+  "name": "24k-maritime-apis-for-agents",
+  "old_name": "maritime-api-endpoints",
+  "services_tested": {
+    "services": 3460,
+    "tested": 1123406,
+    "passed": 933997,
+    "passed_pct": 83,
+    "line": "Across these services: 1.1M tested · 83% passed a keyless call",
+    "note": "Counted over the 3,460 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+  },
+  "overlaps": [
+    {
+      "repo": "weather-api-endpoints",
+      "name": "190k-weather-apis-for-agents",
+      "title": "Weather API endpoints",
+      "shared": 468
+    },
+    {
+      "repo": "transit-api-endpoints",
+      "name": "270k-transit-apis-for-agents",
+      "title": "Transit API endpoints",
+      "shared": 1949
+    },
+    {
+      "repo": "water-api-endpoints",
+      "name": "270k-water-apis-for-agents",
+      "title": "Rivers and water API endpoints",
+      "shared": 3104
+    },
+    {
+      "repo": "finance-economy-api-endpoints",
+      "name": "130k-finance-economy-apis-for-agents",
+      "title": "Finance and economy API endpoints",
+      "shared": 66
+    },
+    {
+      "repo": "india-api-endpoints",
+      "name": "130k-india-apis-for-agents",
+      "title": "India API endpoints",
+      "shared": 18
+    },
+    {
+      "repo": "government-open-data-api-endpoints",
+      "name": "1.3m-government-open-data-apis",
+      "title": "Government open data API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "statistics-api-endpoints",
+      "name": "290k-statistics-apis-for-agents",
+      "title": "Statistics and census API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "oceans-api-endpoints",
+      "name": "86k-oceans-apis-for-agents",
+      "title": "Ocean and marine API endpoints",
+      "shared": 2484
+    },
+    {
+      "repo": "environment-api-endpoints",
+      "name": "170k-environment-apis-for-agents",
+      "title": "Environment API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "air-quality-api-endpoints",
+      "name": "20k-air-quality-apis-for-agents",
+      "title": "Air quality API endpoints",
+      "shared": 123
+    },
+    {
+      "repo": "maps-gis-api-endpoints",
+      "name": "380k-maps-gis-apis-for-agents",
+      "title": "Maps and GIS API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "agent-ready-api-endpoints",
+      "name": "2.5m-agent-ready-apis",
+      "title": "Agent-ready API endpoints",
+      "shared": 14548
+    },
+    {
+      "repo": "health-api-endpoints",
+      "name": "96k-health-apis-for-agents",
+      "title": "Health API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "science-api-endpoints",
+      "name": "380k-science-apis-for-agents",
+      "title": "Science API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "hazards-api-endpoints",
+      "name": "53k-hazards-apis-for-agents",
+      "title": "Hazards and alerts API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "wildfire-api-endpoints",
+      "name": "6.5k-wildfire-apis-for-agents",
+      "title": "Wildfire API endpoints",
+      "shared": 4
+    },
+    {
+      "repo": "energy-api-endpoints",
+      "name": "72k-energy-apis-for-agents",
+      "title": "Energy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "aviation-api-endpoints",
+      "name": "25k-aviation-apis-for-agents",
+      "title": "Aviation API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "traffic-api-endpoints",
+      "name": "24k-traffic-apis-for-agents",
+      "title": "Traffic and roadworks API endpoints",
+      "shared": 1307
+    },
+    {
+      "repo": "parking-api-endpoints",
+      "name": "12k-parking-apis-for-agents",
+      "title": "Parking API endpoints",
+      "shared": 60
+    },
+    {
+      "repo": "earthquake-api-endpoints",
+      "name": "10k-earthquake-apis-for-agents",
+      "title": "Earthquake API endpoints",
+      "shared": 115
+    },
+    {
+      "repo": "volcano-tsunami-api-endpoints",
+      "name": "5.2k-volcano-tsunami-apis-for-agents",
+      "title": "Volcano and tsunami API endpoints",
+      "shared": 27
+    },
+    {
+      "repo": "bike-share-api-endpoints",
+      "name": "17k-bike-share-apis-for-agents",
+      "title": "Bike-share API endpoints",
+      "shared": 0
+    }
+  ],
+  "pack_count": 24,
+  "services_file_rows": 3457,
+  "sample_mix": [
+    {
+      "source": "ArcGIS Online layers",
+      "focus_rows": 3353,
+      "sample_rows": 322
+    },
+    {
+      "source": "Digitraffic (meri.digitraffic.fi)",
+      "focus_rows": 1121,
+      "sample_rows": 108
+    },
+    {
+      "source": "BSH geospatial data (Germany) (gdi.bsh.de)",
+      "focus_rows": 972,
+      "sample_rows": 94
+    },
+    {
+      "source": "Usgs (data.usgs.gov)",
+      "focus_rows": 340,
+      "sample_rows": 34
+    },
+    {
+      "source": "Transparenzportal Hamburg (archiv.transparenz.hamburg.de)",
+      "focus_rows": 182,
+      "sample_rows": 19
+    },
+    {
+      "source": "Eurostat dissemination API (ec.europa.eu)",
+      "focus_rows": 165,
+      "sample_rows": 17
+    },
+    {
+      "source": "Noaa (data.ngdc.noaa.gov)",
+      "focus_rows": 101,
+      "sample_rows": 11
+    },
+    {
+      "source": "Compute 1 (AWS) (ec2-50-19-218-171.compute-1.amazonaws.com)",
+      "focus_rows": 96,
+      "sample_rows": 10
+    },
+    {
+      "source": "Northeastoceandata (devservices.northeastoceandata.org)",
+      "focus_rows": 96,
+      "sample_rows": 10
+    },
+    {
+      "source": "Destatis GENESIS (Germany) (genesis.destatis.de)",
+      "focus_rows": 73,
+      "sample_rows": 8
+    }
+  ],
+  "sample_focus_rows": 7886,
+  "sample_rule": "1,000 rows, or one third of the pack rounded down, whichever is smaller",
+  "files": [
+    {
+      "name": "data/Maritime_API_Services_AgentPopulation.csv",
+      "rows": 3457,
+      "bytes": 215273,
+      "sha256": "600506ccf93738b9160eaf8d46dbb18af900b06fe8649ccb72329ea0c123db81"
+    },
+    {
+      "name": "data/Maritime_API_Endpoints_AgentPopulation_Sample.csv",
+      "rows": 1000,
+      "bytes": 314414,
+      "sha256": "22551257d0a3936c4a7436a1089ae12d0348ecf61c631afb67bb64d69bd69e2c"
+    },
+    {
+      "name": "data/Maritime_API_Endpoints_AgentPopulation_Sample.json",
+      "rows": 1000,
+      "bytes": 509793,
+      "sha256": "a000fa62f6055622f04ced8c357b446b3296f3cc448b4aea4db21c029154c6f8"
+    }
+  ],
+  "release_asset": {
+    "name": "Maritime_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+    "rows": 24827,
+    "bytes": 1170857,
+    "raw_bytes": 7446676,
+    "sha256": "7f065f7df693543e8b5533d6d0141028a30405162b9be23b36fef1c6b3b9b4f4",
+    "url": "https://github.com/agentpopulation/24k-maritime-apis-for-agents/releases/latest/download/Maritime_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz"
+  },
+  "release_tag": "snapshot-2026-11-15",
+  "description": "24,827 maritime API endpoints that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "readme_ap_share": 0.084,
+  "country_counts": {
+    "US": 10613,
+    "DE": 7847,
+    "FI": 1128,
+    "": 1124,
+    "GB": 674,
+    "CA": 636,
+    "AU": 579,
+    "FR": 455,
+    "IE": 233,
+    "EU": 232,
+    "NZ": 203,
+    "ES": 197,
+    "CH": 127,
+    "IT": 104,
+    "NL": 77,
+    "HK": 57,
+    "BR": 53,
+    "PL": 34,
+    "FJ": 32,
+    "BE": 31,
+    "NO": 31,
+    "SE": 27,
+    "CN": 26,
+    "PT": 26,
+    "EE": 25,
+    "TT": 25,
+    "MM": 24,
+    "IN": 18,
+    "JP": 18,
+    "AT": 15,
+    "KH": 14,
+    "SG": 13,
+    "LA": 12,
+    "DK": 11,
+    "CZ": 10,
+    "GR": 9,
+    "ZA": 7,
+    "KE": 6,
+    "PH": 6,
+    "RO": 5,
+    "RU": 4,
+    "SK": 4,
+    "BZ": 3,
+    "ID": 3,
+    "JM": 3,
+    "KR": 3,
+    "LV": 3,
+    "PA": 3,
+    "PK": 3,
+    "TW": 3,
+    "AM": 2,
+    "CL": 2,
+    "CO": 2,
+    "EG": 2,
+    "KZ": 2,
+    "MX": 2,
+    "VI": 2,
+    "AL": 1,
+    "BB": 1,
+    "BG": 1,
+    "BM": 1,
+    "GT": 1,
+    "HN": 1,
+    "HR": 1,
+    "IL": 1,
+    "MY": 1,
+    "SI": 1,
+    "SL": 1,
+    "TC": 1,
+    "TN": 1,
+    "TO": 1,
+    "UA": 1,
+    "UG": 1,
+    "VU": 1
+  }
+}
